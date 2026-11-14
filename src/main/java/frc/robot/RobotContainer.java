@@ -123,7 +123,6 @@ public class RobotContainer {
         Robot.config.driveRightFollow = 4;
         Robot.config.driveLeftFollow = 5;
         runnableRobot = Optional.of(new ParadeSrxDriveRobots(driveHID, "SurfBoard"));
-        new ElevatorSubsystem( driveController);
 
         break;
       case Kevin: // Ginger Bread Robot
